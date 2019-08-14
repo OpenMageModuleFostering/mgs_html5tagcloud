@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MGS_CloudTag>
+            <version>0.1.0</version>
+        </MGS_CloudTag>
+    </modules>
+	<frontend>
+        <layout>
+            <updates>
+                <cloudtag>
+                    <file>mgs_cloudtag.xml</file>
+                </cloudtag>
+            </updates>
+        </layout>
+    </frontend>
+	<adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <aht_cloudtag translate="title" module="cloudtag">
+                                            <title>HTML5 Cloud Tag</title>
+                                            <sort_order>51</sort_order>
+                                        </aht_cloudtag>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+    <global>
+        <blocks>
+            <tag>
+                <rewrite>
+                    <popular>MGS_CloudTag_Block_Popular</popular>
+                </rewrite>
+            </tag>
+        </blocks>
+        <helpers>
+            <cloudtag>
+                <class>MGS_CloudTag_Helper</class>
+            </cloudtag>
+        </helpers>
+    </global>
+	<default>
+		<aht_cloudtag>
+			<general>
+				<enabled>1</enabled>
+				<width>210</width>
+				<height>210</height>
+				<textcolor>#000000</textcolor>
+				<outline>#000000</outline>
+			</general>
+		
+		</aht_cloudtag>
+	</default>
+</config>

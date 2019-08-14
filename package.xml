@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+    <name>MGS_Html5TagCloud</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>It's beautiful tag block with HTML5 technology. It will replace simple tag block in Magento with HTML5 tag cloud</summary>
+    <description>&lt;ul&gt;&#xD;
+&lt;li&gt;It's developed based on HTML5 technology&lt;/li&gt;&#xD;
+&lt;li&gt;It will replace simple tag block in Magento and display with a beautiful tag cloud&lt;/li&gt;&#xD;
+&lt;li&gt; If web browser doesn't support HTML5, it will be shown with Javascript technology &lt;/li&gt;&#xD;
+&lt;li&gt;HTML/ CSS and W3C validation&lt;/li&gt;&#xD;
+&lt;li&gt;Friendly and flexible configuration&lt;/li&gt;&#xD;
+&lt;li&gt;Cross-browsers compatibility&lt;/li&gt;&#xD;
+&lt;/ul&gt;</description>
+    <notes>version 1.0</notes>
+    <authors><author><name>Mage Solution</name><user>mage_solution</user><email>info@magesolution.com</email></author></authors>
+    <date>2013-12-19</date>
+    <time>10:22:53</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="MGS_Mgscore.xml" hash="f8ac0e98f4c28786cd4b615090676e1f"/><file name="MGS_CloudTag.xml" hash="660e381399cb790072052dff5672c1e3"/></dir></target><target name="magelocal"><dir name="MGS"><dir name="CloudTag"><dir name="Block"><file name="Popular.php" hash="3507454f888fec114396c2298cbbd89a"/></dir><dir name="Helper"><file name="Data.php" hash="5dcdde303f42d8c340bc1a04da421767"/></dir><dir name="etc"><file name="config.xml" hash="0d23350d54c594c274ad83a4300eb732"/><file name="system.xml" hash="b56dab7841f036b9a6f953ace7168c95"/></dir></dir><dir name="Mgscore"><dir name="Block"><dir name="System"><dir name="Config"><file name="About.php" hash="e3a6ea60f46dcc1e9f961d60d1eaca1f"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="e8940e23620e28ed20fe8bb799526230"/></dir><dir name="etc"><file name="config.xml" hash="f15f20b1d2b4ff90c9c289ae273c01ff"/><file name="system.xml" hash="231f2cc3b2d424833cb4ea328bac70f6"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="mgs_cloudtag.xml" hash="d2e7d4dd1f906225e921badba1d89b2a"/></dir><dir name="template"><dir name="mgs"><dir name="cloudtag"><file name="popular.phtml" hash="9c079b2484b6dcbb9bb3eec472459894"/></dir></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="mgs_tagcloud"><file name="excanvas.js" hash="59e01a2bcf64ed75aaf3ef6ac97547d7"/><file name="tagcanvas.js" hash="4c37da9682b542ee6f594807c1e53d63"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

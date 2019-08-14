@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+		<reference name="head">
+        	<action method="addJs"><script>mgs_tagcloud/tagcanvas.js</script></action>
+			<action method="addItem"><type>js</type><name>mgs_tagcloud/excanvas.js</name><params/><if>lt IE 9</if></action>
+        </reference>
+    </default>
+</layout> 
