@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/MGS_Html5TagCloud",
+    "name": "openmage-module-fostering\/mgs_html5tagcloud",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "It's beautiful tag block with HTML5 technology. It will replace simple tag block in Magento with HTML5 tag cloud",
     "authors": [
